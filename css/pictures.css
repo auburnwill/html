@@ -1,0 +1,86 @@
+.common{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 100px;
+    background-color: darkolivegreen;
+    color: white;
+    line-height: 100px;
+}
+
+.mainbody{
+    background-color:aliceblue;
+}
+
+.footer{
+    height: 25px;
+    background-color: lightgray;
+    color: black;
+    bottom: 0px;
+    right: 5px;
+    left: 5px;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    color: #333;
+    padding: 10px 13px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #ccc;
+}
+
+ul{
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block
+}
+
+ol{
+    list-style-position: inside;
+}
+
+.emphasizedText{
+    font-style: bold; color: darkolivegreen; font-weight: bold; font-size: 30px;
+}
+
+li{
+    font-size: 25px;
+}
+
+#top{
+    font-size: 30px;
+}
+
+.paragraph{
+    font-size: 25px;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+.tableauPlaceholder {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px; /* Adjust the width to your desired size */
+}
